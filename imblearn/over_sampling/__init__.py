@@ -4,6 +4,7 @@ perform over-sampling.
 """
 
 from ._adasyn import ADASYN
+from ._meta import MetaOversampler
 from ._random_over_sampler import RandomOverSampler
 from ._smote import SMOTE
 from ._smote import BorderlineSMOTE
@@ -21,4 +22,5 @@ __all__ = [
     "SVMSMOTE",
     "SMOTENC",
     "SMOTEN",
+    "MetaOversampler"
 ]
